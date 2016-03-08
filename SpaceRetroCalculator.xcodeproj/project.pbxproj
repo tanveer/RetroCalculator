@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14D84701C076FD3003D7D88 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A14D846F1C076FD3003D7D88 /* btn.wav */; };
 		A1FD7A951C02AF2C0082B88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD7A941C02AF2C0082B88B /* AppDelegate.swift */; };
 		A1FD7A971C02AF2C0082B88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FD7A961C02AF2C0082B88B /* ViewController.swift */; };
 		A1FD7A9A1C02AF2C0082B88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FD7A981C02AF2C0082B88B /* Main.storyboard */; };
@@ -15,13 +16,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A14D846F1C076FD3003D7D88 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		A1FD7A911C02AF2C0082B88B /* SpaceRetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceRetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1FD7A941C02AF2C0082B88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1FD7A941C02AF2C0082B88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SpaceRetroCalculator/AppDelegate.swift; sourceTree = "<group>"; };
 		A1FD7A961C02AF2C0082B88B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1FD7A991C02AF2C0082B88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1FD7A9B1C02AF2C0082B88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1FD7A9E1C02AF2C0082B88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1FD7AA01C02AF2C0082B88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FD7AA01C02AF2C0082B88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpaceRetroCalculator/Info.plist; sourceTree = "<group>"; };
+		A1FD7AA71C02B63C0082B88B /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		A1FD7A881C02AF2C0082B88B = {
 			isa = PBXGroup;
 			children = (
+				A1FD7AA61C02AF350082B88B /* SupportingFiles */,
 				A1FD7A931C02AF2C0082B88B /* SpaceRetroCalculator */,
 				A1FD7A921C02AF2C0082B88B /* Products */,
 			);
@@ -54,14 +58,23 @@
 		A1FD7A931C02AF2C0082B88B /* SpaceRetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				A1FD7A941C02AF2C0082B88B /* AppDelegate.swift */,
 				A1FD7A961C02AF2C0082B88B /* ViewController.swift */,
 				A1FD7A981C02AF2C0082B88B /* Main.storyboard */,
 				A1FD7A9B1C02AF2C0082B88B /* Assets.xcassets */,
-				A1FD7A9D1C02AF2C0082B88B /* LaunchScreen.storyboard */,
-				A1FD7AA01C02AF2C0082B88B /* Info.plist */,
 			);
 			path = SpaceRetroCalculator;
+			sourceTree = "<group>";
+		};
+		A1FD7AA61C02AF350082B88B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A14D846F1C076FD3003D7D88 /* btn.wav */,
+				A1FD7AA71C02B63C0082B88B /* Minecrafter.Reg.ttf */,
+				A1FD7AA01C02AF2C0082B88B /* Info.plist */,
+				A1FD7A9D1C02AF2C0082B88B /* LaunchScreen.storyboard */,
+				A1FD7A941C02AF2C0082B88B /* AppDelegate.swift */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 				A1FD7A9F1C02AF2C0082B88B /* LaunchScreen.storyboard in Resources */,
 				A1FD7A9C1C02AF2C0082B88B /* Assets.xcassets in Resources */,
 				A1FD7A9A1C02AF2C0082B88B /* Main.storyboard in Resources */,
+				A14D84701C076FD3003D7D88 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +171,7 @@
 				A1FD7A9E1C02AF2C0082B88B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = SpaceRetroCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,6 +299,7 @@
 				A1FD7AA51C02AF2C0082B88B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
